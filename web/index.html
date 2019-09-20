@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <style>
+body {background-color:powderblue ;}
+h1   {color: rgba(36, 37, 42, 1);}
+p    {color: red;}
+#menubar
+{ width: 1330px;
+  height: 72px;
+  padding: 0;
+  background: #1293EE;} 
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: #FFF;}
+
+#m
+{ width: 1330px;
+  height: 72px;
+  padding: 0;
+  background: green;} 
+
+ul#me, ul#me li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#me li
+{ list-style: none;}
+
+ul#me li a
+{ letter-spacing: 0.1em;
+  font: normal 100% arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#me li a:hover, ul#me li.select a, ul#me li.select a:hover
+{ color: #FFF;}
+
+#foot
+{ width: 1330px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: green;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#foot a
+{ color: #FFF;
+  text-decoration: none;}
+
+#footer
+{ width: 1330px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: #1293EE;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer a
+{ color: #FFF;
+  text-decoration: none;}
+    </style>
+        <title>complain tab</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+      <body> 
+        <h1><center><marquee><BLOCKQUOTE><b><font size="50" color="green">Welcome to Member's Area</BLOCKQUOTE></marquee></center></h1>
+                            <font color="teal"  face="arial"><h3><a href="#">About </a>&nbsp;<a href="http://localhost/mytest/mtmlmunici%20(1).html">Home </a>
+        <div></div>
+        
+     
+<center>
+    <table>
+        <tr>
+<form action="submitComplain" method="POST">
+<table  border="0" cellpadding="3" style="border-collapse: collapse"  cell-spacing="1">
+		<tr>
+   <td>
+   	Name:
+   </td>
+   <td>
+   	<input type="text" name="fname" required>
+   </td>
+</tr>
+<tr>
+	<td>
+   House No:
+</td>
+<td>
+	<input type="text" name="hnumber" required>
+</td>
+</tr>
+<tr>
+	<td>
+   Address:
+	</td>
+	<td>
+		<input type="text" name="address" required>
+	</td>
+</tr>
+<tr>
+	<td>
+   Word No: 
+   </td>
+   <td> <input type="text" name="word" required>
+   </td>
+</tr>
+<tr>
+   <td>Phone:</td>
+   <td> <input type="text" name="phone" required></td>
+</tr>
+<tr>
+	<td>
+   Department:
+</td>
+<td>
+	<select name ="dep">
+  		<option value="dep_electricity">Electricity</option>
+  		<option value="dep_drain">Drainage</option>
+  		<option value="dep_mosquito">Mosquito</option>
+  		<option value="dep_garbage">Garbage</option>
+	</select>
+</td>
+</tr>
+<tr>
+	<td>
+	Complain Details:
+</td>
+<td>
+    
+	<select name ="cmp">
+  		<option value="supply line or flow  disturb">supply line or flow  disturb</option>
+  		<option value="not properly supplied/light disturbed">not properly supplied/light disturbed</option>
+  		<option value="other">other</option>
+	</select>
+        <div id="div1"></div>
+        
+
+</td>
+</tr>
+	</table>
+	
+  <input type="submit" name="submit" value="Submit">
+</center>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+         
+			<a href="https://www.kmcgov.in/KMCPortal/jsp/Disclaimer.html" style=" text-decoration: none;" target="_blank"><font style="font-size:13; color:black;"><b>Disclaimer</b><font></a>
+			<font style="font-size:13; color:#1c5d9f;">|</font>
+			<a href="#" style="text-decoration: none;"><font style="font-size:13; color:black;"><b>Feedback</b></font></a>
+			<font style="font-size:13; color:#1c5d9f;">|</font>
+			<a href="#" style="text-decoration: none;"><font style="font-size:13; color:black;"><b>FAQ</b></font></a> 
+			<font style="font-size:13; color:#1c5d9f;">|</font>
+			<a href="#" style=" text-decoration: none;"><font style="font-size:13; color:black;"><b>Contact Us</b></font></a>
+			<font style="font-size:13; color:#1c5d9f;">|</font> 
+            </td>	
+        </tr>
+        </table>
+
+</body>
+ <!-- <a href="/KMCPortal/jsp/SiteMap.jsp" style=" text-decoration: none;"><font style="font-size:13; color:black;"><b>Site Map</b></font></a> 
+			<font style="font-size:13; color:#1c5d9f;">       
+</html>
