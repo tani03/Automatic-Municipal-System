@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+body {background-color: rgba(144,198,149,1);}
+h1   {color: green;}
+p    {color: red;}
+</style>
+	<title>welcome to municipality</title>
+  <link rel="stylesheet" type="text/css" href="style.css" title="style" />
+</head>
+<body> 
+  <h1><center><marquee><BLOCKQUOTE><b><font size="50" color="green">Welcome To The Add Worker Page</BLOCKQUOTE></marquee></center></h1>
+  <img src="./img1.png"; width="1330"; height="300">
+  <div id="m">
+    <ul id="me">
+     <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+       <li class="select"><a href="./member.php">Home</a></li>
+       <li><a href="./mtmlmunici%20(1).html">User-Homepage</a></li>
+       <li><a href="./member_area.php">Logout</a></li>
+    </ul>
+  </div><br><br><br><br><br>
+  <h2 align="center">Add Worker Form</h2><br>
+  <h3 align="center">All fields are necessary except one phone number</h3><br><br>
+  <center>
+    <form action="Addworker.php" method="POST">
+      <table>
+       <tr>
+         <td>Name:</td>
+         <td><input type="text" name="name" placeholder="name" required></td>
+       </tr>
+        <tr>
+          <td>Phone Number 1:</td>
+          <td><input type="Number" name="phonenumber1" placeholder="phone_number1" required></td>
+        </tr>
+        <tr>
+          <td>Phone Number 2:</td>
+          <td><input type="Number" name="phonenumber2" placeholder="phone_number2" ></td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td><input type="text" name="homeaddress" placeholder="address" required></td>
+        </tr>
+        <tr>
+          <td>Licence: </td>
+          <td><input type="text" name="licencenumber" placeholder="licence_number" required></td>
+        </tr>
+        <tr>
+          <td>Pan number:</td>
+          <td><input type="text" name="pannumber" placeholder="pan_number" required></td>
+        </tr>
+        <tr>
+         <td>Free or Not (Y or N):</td>
+         <td><input type="text" name="free" placeholder="Y or N" required></td>
+         </tr>
+         <tr>
+         <td>Joining year:</td>
+         <td> <input type="year" name="joining" placeholder="joining_year" required></td>
+         </tr>
+         <tr>
+         <td>Number of Works:</td>
+         <td> <input type="number" name="works" placeholder="works" required></td>
+         </tr>
+         <tr>
+         <td>Works in months:</td>
+         <td> <input type="number" name="worksinmonth" placeholder="works_in_months" required></td>
+         </tr>
+      </table><br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+  </center>
+	<!--<form action="Addworker.php" method="POST">
+  		<h5><center-left>Name:<input type="text" name="name" placeholder="name" required></center-left></h5>
+   		<h5><center-left>Phone Number 1:<input type="Number" name="phonenumber1" placeholder="phone_number1" required></center-left></h5>
+   		<h5><center-left>Phone Number 2:<input type="Number" name="phonenumber2" placeholder="phone_number2" ></center-left></h5>
+  		 <h5><center-left>Address:<input type="text" name="homeaddress" placeholder="address" required></center-left></h5>
+  	 	<h5></center-left>Licence:  <input type="text" name="licencenumber" placeholder="licence_number" required></center-left></h5>
+   		<h5></center-left>Pan number: <input type="text" name="pannumber" placeholder="pan_number" required></center-left></h5>
+   		<h5><center-left>Free or Not (Y or N):<input type="text" name="free" placeholder="Y or N" required>
+		</h5>
+  		<h5><center-left>Joining year: <input type="year" name="joining" placeholder="joining_year" required></center-left></h5>
+  		<h5><center-left>Number of Works: <input type="number" name="works" placeholder="works" required></center-left></h5>
+  		<h5><center-left>Works in months: <input type="number" name="worksinmonth" placeholder="works_in_months" required></center-left></h5>
+      Department: 
+      <select name="depart">
+        <option value="dep_electricity">Electricity</option>
+        <option value="dep_drain">Drainage</option>
+        <option value="dep_mosquito">Mosquito</option>
+        <option value="dep_garbage">Garbage</option>
+        <option value="dep_water">Water</option>
+      </select>
+  		<input type="submit" name="submit" value="Submit">
+	</form>--> 
+</center>
+<br><br><br><br><br>
+<div id="foot">
+    Copyright &copy; The Squad 
+</div>
+</body>
+</html>

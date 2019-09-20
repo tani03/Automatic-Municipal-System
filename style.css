@@ -1,0 +1,89 @@
+#menubar
+{ width: 100%;
+  height: 72px;
+  padding: 0;
+  background: #1293EE;} 
+
+ul#menu, ul#menu li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#menu li
+{ list-style: none;}
+
+ul#menu li a
+{ letter-spacing: 0.1em;
+  font: normal 100% arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#menu li a:hover, ul#menu li.selected a, ul#menu li.selected a:hover
+{ color: #FFF;}
+
+#m
+{ width: 1330px;
+  height: 72px;
+  padding: 0;
+  background: green;} 
+
+ul#me, ul#me li
+{ float: left;
+  margin: 0; 
+  padding: 0;}
+
+ul#me li
+{ list-style: none;}
+
+ul#me li a
+{ letter-spacing: 0.1em;
+  font: normal 100% arial, sans-serif;
+  display: block; 
+  float: left; 
+  height: 37px;
+  padding: 29px 26px 6px 26px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: transparent;} 
+
+ul#me li a:hover, ul#me li.select a, ul#me li.select a:hover
+{ color: #FFF;}
+
+#foot
+{ width: 1330px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: green;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#foot a
+{ color: #FFF;
+  text-decoration: none;}
+
+#footer
+{ width: 1330px;
+  font: normal 100% 'lucida sans unicode', arial, sans-serif;
+  height: 33px;
+  padding: 24px 0 5px 0;
+  text-align: center; 
+  background: #1293EE;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;}
+
+#footer a
+{ color: #FFF;
+  text-decoration: none;}

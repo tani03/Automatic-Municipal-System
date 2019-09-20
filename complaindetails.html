@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html><style>
+body {background-color: rgba(144,198,149,1);}
+h1   {color: green;}
+p    {color: red;}
+</style>
+<title>
+  welcome to municipality
+</title>
+<link rel="stylesheet" type="text/css" href="style.css" title="style" />
+</head>
+<body>
+<p></p>
+<h1><center><marquee><BLOCKQUOTE><b><font size="50" color="green">Check For Complain Details</BLOCKQUOTE></marquee></center></h1>
+<!--<h1><center><BLOCKQUOTE><b><marquee><font size="300">Welcome to Municipality</font></marquee></b><BLOCKQUOTE></center></h1>-->
+<img src="./img1.png"; width="1330"; height="300">
+<div id="m">
+    <ul id="me">
+     <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+       <li class="select"><a href="./member.php">Home</a></li>
+       <li><a href="./mtmlmunici%20(1).html">User-Homepage</a></li>
+       <li><a href="./member_area.php">Logout</a></li>
+    </ul>
+</div><br><br><br>
+<!--<div style="height: 50">	
+	<table width="500" height="50" cellpadding="5" cellspacing="5" style="border-collapse: collapse">
+		<tr>			
+			<td align="center" valign="middle">			    
+				<font color="white"  face="arial"><h3><a href="#">Home </a>
+			</td>		
+			<td align="left" valign="middle">
+				<font color="teal"  face="arial"><h3><a href="./mtmlmunici%20(1).html">User-Homepage </a></h3>
+			</td>			
+		</tr>
+	</table>
+</div>-->
+</head>
+<body>
+	<h2 align="center">Complain Details</h2>
+	<form action="dataprint.php" method="post" target="_blank" autocomplete="on">
+		<h3><center><font>Department:</font> 
+		<select name="depart">
+  			<option value="Electricity">Electricity</option>
+  			<option value="Drainage">Drainage</option>
+  			<option value="Mosquito">Mosquito</option>
+  			<option value="Garbage">Garbage</option>
+  			<option value="Water">Water</option>
+		</select><br><br>
+		<select name="resolve">
+			<option value="1">Resolved</option>
+			<option value="0">Unresolved</option>
+		</select>
+			<input type="submit" name="submit" value="Submit"></center>
+		</h3>
+	</form>
+	<br><br><br><br><br>
+<div id="foot">
+    Copyright &copy; The Squad 
+</div>
+</body>
+</html>
